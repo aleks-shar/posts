@@ -12,6 +12,7 @@ class PostController extends Controller
         $posts = Post::all();
         return view('posts::index', [
             'posts'=> $posts,
+            'test' => "From controller"
         ]);
     }
 }
