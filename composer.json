@@ -1,0 +1,27 @@
+{
+    "name": "aleks-shar/posts",
+    "description": "description",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "alex-shar",
+            "email": "alexsharshakov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Aleksshar\\Posts\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Aleksshar\\Posts\\Providers\\PostsServiceProvider"
+            ]
+        }
+    }
+}
